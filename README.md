@@ -1,16 +1,70 @@
-# React + Vite
+# Trustable
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**The Universal Verification Layer for Creative Labor.**
 
-Currently, two official plugins are available:
+In an era of AI saturation, Trustable provides the infrastructure to prove who made it, how long it took, and that it's genuinely human-built. Cryptographic. Private. Irrefutable.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Overview
 
-## React Compiler
+Trustable is a C2PA-native verification protocol designed to restore trust in digital content. It adds a layer of "Labor Verification" that standard content credentials often omit, by cryptographically linking human identity, session telemetry, and immutable audit trails.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Key Features
 
-## Expanding the ESLint configuration
+- **C2PA-Native Integration**: Full compatibility with the open standard for content provenance.
+- **Labor Verification**: OS-level session telemetry and input entropy tracking to prove active human effort.
+- **Immutable Audit Trail**: A cryptographic timeline of the creative process from start to finish.
+- **Visual DNA (pHash)**: Robust content fingerprinting that survives compression and re-encoding.
+- **Privacy-First**: No content is recorded; only metadata and entropy scores are used for verification.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technology Stack
+
+- **Frontend**: React + Vite
+- **Icons**: Lucide React
+- **Styling**: Vanilla CSS (Modern CSS-in-JS patterns)
+- **Deployment**: Vite build pipeline
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js (Latest LTS recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rjarivi/Trustable.git
+   cd Trustable
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 🏗️ Project Structure
+
+- `src/App.jsx`: Main application component containing the primary landing page logic and styles.
+- `src/main.jsx`: Entry point for the React application.
+- `public/`: Static assets.
+
+## 🔒 Security & Privacy
+
+Trustable is built with a security-first mindset.
+- **No Private Data Stored**: We do not record screens or content.
+- **Local Verification**: Telemetry analysis happens locally.
+- **Cryptographic Signing**: All verification certificates are cryptographically tied to the author's identity.
+
+## 📄 License
+
+This project is currently in Private Beta. See the [Protocol](#) documentation for more details.
+
+---
+
+Built for agencies, studios, and creators who value irrefutable proof of work.
